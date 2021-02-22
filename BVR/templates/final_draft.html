@@ -313,19 +313,27 @@
                 </div>
               </div>
             <table id="myTable" class="table table-striped table-bordered" style="width:auto">
-                <tbody>
-                    <tr class="myTableId" >
-                        {% for header in ov_tb %}
-                        <th class="table__cell">{{ header }}</th>
+                <thead>
+                        <tr>
+                            {% for col in column_names %}
+                            <th>{{col}}</th>
+                            {% endfor %}
+                        </tr>
+                        {% for row in row_data %}
+                        <tr>
+                            {% for col, row_ in zip(column_names, row) %}
+                            {% if col == link_column %}
+                            <td>
+                                <button type="submit" value={{ row_ }} name="person_id" form="patient_form" class="patient_button">
+                                    {{ row_ }}
+                                </button>
+                            </td>
+                            {% else %}
+                            <td>{{row_}}</td>
+                            {% endif %}
+                            {% endfor %}
+                        </tr>
                         {% endfor %}
-                    </tr>
-                        {% for row in ov_db %}
-                    <tr class="myTableId">
-                        {% for cell in row %}
-                        <td class="table__cell">{{ cell }}</td>
-                        {% endfor %}
-                    </tr>
-                    {% endfor %}
                 </thead>
             </tbody>
             <thead>
