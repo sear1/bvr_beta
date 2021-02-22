@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   
+    <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+    <link data-minify="1" rel='stylesheet' id='impv-vendors-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/cache/min/18/cyber-threat-index/wp-content/themes/impv/dist/css/impv-vendors-01d71a2f6b.min-7f07420c62374614f674fa24c2011825.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='impv-main-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/themes/impv/dist/css/impv-main-c961cadab4.min.css?ver=c961cadab4' type='text/css' media='all' />
+    <link rel='stylesheet' id='impv-import-heros-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/themes/impv/dist/css/impv-import-heros-20b3c100e2.min.css?ver=20b3c100e2' type='text/css' media='all' />
+    <link rel='stylesheet' id='impv-import-page-tabs-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/themes/impv/dist/css/impv-import-page-tabs-d0c0e7a8b6.min.css?ver=d0c0e7a8b6' type='text/css' media='all' />
+    <link rel='stylesheet' id='impv-import-stycky-pagination-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/themes/impv/dist/css/impv-import-stycky-pagination-0a4b73971f.min.css?ver=0a4b73971f' type='text/css' media='all' />
+    <link rel='stylesheet' id='impv-import-collapse-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/themes/impv/dist/css/impv-import-collapse-5972711ce8.min.css?ver=5972711ce8' type='text/css' media='all' />
+    <link rel='stylesheet' id='impv-import-box-library-layout-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/themes/impv/dist/css/impv-import-box-library-layout-0ba085ec1d.min.css?ver=0ba085ec1d' type='text/css' media='all' />
+    <link rel='stylesheet' id='impv-cyber-threat-index-main-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/themes/impv-cyber-threat-index/dist/css/impv-cyber-threat-index-main-cd325fd74e.min.css?ver=cd325fd74e' type='text/css' media='all' />
+    <link data-minify="1" disabled rel='stylesheet' id='mo_saml_admin_settings_style-css'  href='https://www.imperva.com/cyber-threat-index/wp-content/cache/min/18/cyber-threat-index/wp-content/plugins/miniorange-saml-20-single-sign-on/includes/css/jquery.ui-3f68998828b253c39078c646855f8bfc.css' type='text/css' media='all' />
+
+    
+</head>
+<body>
+    <style>
+        #header, #header.affix{
+            background-color: #000000;
+        }
+        #header .nav-items-div, #header .dropdown-menu {
+            background-color: rgba(33, 33, 33, 0.99) !important;
+        }
+        #header .header-holder .inner-header-holder .nav-holder #nav-main .top-nav-items a:not(.btn-group), #header .header-promo-btn, #header .btn-group > .readmore-link:not(.not-head), #header .dropdown-select-btn, #header .dropdown-item, #header .mobile-menu:before{
+            color: #ffffff !important;
+        }
+        #header .impv-icon span, #header .menu span, #header #choose-login:after{
+            background-color: #ffffff  !important;
+        }
+        
+                @media (min-width: 1024px){
+                    .products .nav-items-div .btn-group,.solutions .nav-items-div .btn-group {
+                        background-image: url('https://www.imperva.com/cyber-threat-index/wp-content/uploads/2020/07/group-6.svg'), url('https://www.imperva.com/cyber-threat-index/wp-content/uploads/2020/07/group-5.svg');
+                    }
+                }        @media (max-width: 1023px){
+            #header .header-btns-div{
+                background-color: #000000 !important;
+            }
+             #header .nav-holder , #nav-main, #header .nav-top{
+                background-color: rgba(33, 33, 33, 0.99) !important;
+            }
+        }
+        @media (min-width: 1024px){
+            #header .top-nav-items:hover,  #header .top-nav-items.open {
+                 background: -moz-linear-gradient(
+                         top,
+                         transparent 0%,
+                         transparent 95%,
+                         #ffffff 95%,
+                         #ffffff 100%
+                 ) !important; /* FF3.6-15 */
+                 background: -webkit-linear-gradient(
+                         top,
+                         transparent 0%,
+                         transparent 95%,
+                         #ffffff 95%,
+                         #ffffff 100%
+                 ) !important; /* Chrome10-25,Safari5.1-6 */
+                 background: linear-gradient(
+                         top,
+                         transparent 0%,
+                         transparent 95%,
+                         #ffffff 95%,
+                         #ffffff 100%
+                 ) !important;
+            }
+        }
+    </style>
+    <div class="wrapper">
+        <div class="w1">
+            <div class="nav-overlay"></div>
+                <div class="heading-div solid-bg">
+                    <div class="header-placeholder" style="height: 96px;">
+                        <header id="header" class="solid-bg" data-spy="affix" data-offset-top="42">
+                            <div class="header-holder container">
+                                <div class="inner-header-holder">
+                                    <div class="logo">
+                                        <a href="https://www.imperva.com">
+                                            <img src="https://www.imperva.com/cyber-threat-index/wp-content/uploads/2020/06/imperva_logo.svg" alt="Imperva">
+                                        </a>
+                                    </div>
+                                    <style>
+                                        @media (max-width: 1023.98px) {
+                                            html.menu-open .mobile-menu:before {
+                                                content: "close";
+                                            }
+
+                                            html:not(.menu-open) .mobile-menu:before {
+                                                content: "menu";
+                                            }
+                                        }
+                                    </style>
+                                    <div class="mobile-menu">
+                                    <span class="menu">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    </div>
+
+                                    <div class="nav-holder">
+                                        <div class="header-btns-div">
+                                            <a class="btn impv-yellow-square-btn d-none d-sm-block "  event-action="Click"  event-category="Top CTA"  event-label="Request Demo"  gtm-track  target="_self" href="javascript:openModal('modalid3533', '/virtual/request-demo/', 'Personal Demo Request | Imperva');"   >Request Demo</a><a class="btn impv-yellow-square-btn d-sm-none "  event-action="Click"  event-category="Top CTA mobile"  event-label="Request Demo"  gtm-track  target="_self" href="javascript:openModal('modalid3533', '/virtual/request-demo/', 'Personal Demo Request | Imperva');"   >Request Demo</a><a class="btn link-yellow-btn d-md-none "  event-action="Click"  event-category="FlexProtect mobile"  event-label="Flexprotect plans"  gtm-track  target="_self" href="/products/flexprotect-plans/"   >Flexprotect plans</a>                                        </div>
+                                        <div class="nav-top">
+                    </button><div class='dropdown-menu' aria-labelledby='dropdownMenuButton-choose-lang'><a class='dropdown-item' data-value='/' data-source='/' href='#' >English</a><a class='dropdown-item' data-value='/de/' data-source='/de/' href='#' >Deutsch</a><a class='dropdown-item' data-value='/jp/' data-source='/jp/' href='#' >日本語</a><a class='dropdown-item' data-value='https://www.imperva.cn/' data-source='https://www.imperva.cn/' href='#' >中文</a></div></div><ul id="nav-main">
+                    <li class="top-nav-items products"  >
+                        
+            <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+        
+                
+                        <a  href="javascript:void(0)" class="top-nav-item-anchor "> 
+                            Products
+                        </a>
+                    
+                    <div class="drop" style="display: none">
+                    <div class="nav-items-div row">
+                
+                    	<ul class="column col column">
+                
+                    		<ul class="application-security hide-children-on-xs">
+                <div>
+                                <a  href="javascript:void(0)" class="readmore-link not-hover disabled " gtm-track event-action="click" event-category="Top menu" event-label="Application Security">
+                                    <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+                                    Application Security
+                                </a></div>
+                        			<li class="web-application-firewall xs-closed">
+                			<a  href="/products/web-application-firewall-waf/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Web Application Firewall">Web Application Firewall</a>
+                    			</li>			<li class="runtime-application-self-protection xs-closed">
+                			<a  href="/products/runtime-application-self-protection-rasp/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Runtime Application Self-Protection">Runtime Application Self-Protection</a>
+                    			</li>			<li class="api-security xs-closed">
+                			<a  href="/products/api-security/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="API Security">API Security</a>
+                    			</li>			<li class="advanced-bot-protection xs-closed">
+                			<a  href="/products/advanced-bot-protection-management/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Advanced Bot Protection">Advanced Bot Protection</a>
+                    			</li>			<li class="attack-analytics xs-closed">
+                			<a  href="/products/attack-analytics/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Attack Analytics">Attack Analytics</a>
+                    			</li>			<li class="client-side-protection xs-closed">
+                			<a  href="/products/client-side-protection/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Client-Side Protection">Client-Side Protection</a>
+                    			</li>		</ul>	</ul>
+                    	<ul class="column col column">
+                
+                    		<ul class="data-security hide-children-on-xs">
+                <div>
+                                <a  href="javascript:void(0)" class="readmore-link not-hover disabled " gtm-track event-action="click" event-category="Top menu" event-label="Data Security">
+                                    <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+                                    Data Security
+                                </a></div>
+                        			<li class="cloud-data-security xs-closed">
+                			<a  href="/products/cloud-data-security/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Cloud Data Security">Cloud Data Security</a>
+                    			</li>			<li class="database-security xs-closed">
+                			<a  href="/products/database-security/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Database Security">Database Security</a>
+                    			</li>			<li class="data-risk-analytics xs-closed">
+                			<a  href="/products/data-risk-analytics/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Data Risk Analytics">Data Risk Analytics</a>
+                    			</li>		</ul>	</ul>
+                    	<ul class="column col column">
+                
+                    		<ul class="edge-security hide-children-on-xs">
+                <div>
+                                <a  href="javascript:void(0)" class="readmore-link not-hover disabled " gtm-track event-action="click" event-category="Top menu" event-label="Edge Security">
+                                    <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+                                    Edge Security
+                                </a></div>
+                        			<li class="ddos-protection xs-closed">
+                			<a  href="/products/ddos-protection-services/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="DDoS Protection">DDoS Protection</a>
+                    			</li>			<li class="secure-cdn xs-closed">
+                			<a  href="/products/secure-cdn/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Secure CDN">Secure CDN</a>
+                    			</li>		</ul>	</ul>
+                        <div class="btn-group d-none d-md-block">
+                        <a href="/products/flexprotect-plans/" style='color:#f9c737 !important;' gtm-track event-action="click" event-category="Top menu" event-label="Explore FlexProtect Plans">
+                    <span class="header-promo-btn not-head">
+                        <span style='color:#ffffff;'>Flexible and predictable licensing to secure your data and applications on-premises and in the cloud.</span>
+                        
+                        </span><span class="readmore-link not-head">
+                        <span style='color:#f9c737;'>Explore FlexProtect Plans</span>
+                        
+                        <i class="new-icon impv-icon"></i>
+                    
+                        </span>
+                        </a>
+                    </div>
+                    </div>
+                </div></li>
+                    <li class="top-nav-items solutions"  >
+                        
+            <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+        
+                
+                        <a  href="javascript:void(0)" class="top-nav-item-anchor "> 
+                            Solutions
+                        </a>
+                    
+                    <div class="drop" style="display: none">
+                    <div class="nav-items-div row">
+                
+                    	<ul class="column col column">
+                
+                    		<ul class="cloud-security hide-children-on-xs">
+                <div>
+                                <a  href="javascript:void(0)" class="readmore-link not-hover disabled " gtm-track event-action="click" event-category="Top menu" event-label="Cloud Security">
+                                    <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+                                    Cloud Security
+                                </a></div>
+                        			<li class="amazon-web-services-(aws) xs-closed">
+                			<a  href="/cloud-security/amazon-aws-cloud-security/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Amazon Web Services (AWS)">Amazon Web Services (AWS)</a>
+                    			</li>			<li class="microsoft-azure xs-closed">
+                			<a  href="/cloud-security/microsoft-azure-cloud-security/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Microsoft Azure">Microsoft Azure</a>
+                    			</li>			<li class="google-cloud-platform-(gcp) xs-closed">
+                			<a  href="/cloud-security/google-gcp-cloud-security/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Google Cloud Platform (GCP)">Google Cloud Platform (GCP)</a>
+                    			</li>		</ul>	</ul>
+                    	<ul class="column col column">
+                
+                    		<ul class="industries hide-children-on-xs">
+                <div>
+                                <a  href="javascript:void(0)" class="readmore-link not-hover disabled " gtm-track event-action="click" event-category="Top menu" event-label="Industries">
+                                    <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+                                    Industries
+                                </a></div>
+                        			<li class="healthcare xs-closed">
+                			<a  href="/solutions/security-for-healthcare/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Healthcare">Healthcare</a>
+                    			</li>			<li class="financial-services xs-closed">
+                			<a  href="/solutions/security-for-financial-services/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Financial Services">Financial Services</a>
+                    			</li>			<li class="telecom-&-isps xs-closed">
+                			<a  href="/solutions/security-for-telecoms-and-isps/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Telecom &#038; ISPs">Telecom &#038; ISPs</a>
+                    			</li>			<li class="retail xs-closed">
+                			<a  href="/solutions/security-for-retail/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Retail">Retail</a>
+                    			</li>		</ul>	</ul>
+                        <a href="/resources/resource-library/reports/2020-bad-bot-report/" style='color:#f9c737 !important;' class="btn-group d-none d-md-block" gtm-track event-action="click" event-category="Top menu" event-label="Read the Report">
+                    <span class="header-promo-btn not-head">
+                        <span style='color:#ffffff;'>During 2019, 80% of organizations have experienced at least one successful cyber attack. </span>
+                        
+                        </span><span class="readmore-link not-head">
+                        <span style='color:#f9c737;'>Read the Report</span>
+                        
+                        <i class="new-icon impv-icon"></i>
+                    
+                        </span>
+                        </a>
+                    </div>
+                </div></li>
+                    <li class="top-nav-items explore-flexprotect hide_on_desktop_small hide_on_desktop_medium hide_on_desktop_large"  >
+                        
+            <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+        
+                
+                        <a  href="javascript:void(0)" class="top-nav-item-anchor "> 
+                            Explore FlexProtect
+                        </a>
+                    
+                    <div class="drop" style="display: none">
+                    <div class="nav-items-div row">
+                
+                    	<ul class="column col column">
+                
+                    		<ul class="column show-children-on-xs">
+                			<li class="flexprotect-plans hide_on_desktop_small hide_on_desktop_medium hide_on_desktop_large xs-closed">
+                			<a  href="/products/flexprotect-plans/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="FlexProtect Plans">FlexProtect Plans</a>
+                    			</li>			<li class="simplifying-our-portfolio hide_on_desktop_small hide_on_desktop_medium hide_on_desktop_large xs-closed">
+                			<a  href="/products/simplifying-our-portfolio/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Simplifying our Portfolio">Simplifying our Portfolio</a>
+                    			</li>		</ul>	</ul></div></li>
+                    <li class="top-nav-items support"  >
+                        
+            <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+        
+                
+                        <a  href="javascript:void(0)" class="top-nav-item-anchor "> 
+                            Support
+                        </a>
+                    
+                    <div class="drop" style="display: none">
+                    <div class="nav-items-div row">
+                
+                    	<ul class="column col column">
+                
+                    		<ul class="column show-children-on-xs">
+                			<li class="technical-support xs-closed">
+                			<a  href="/support/technical-support/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Technical Support">Technical Support</a>
+                    			</li>			<li class="services xs-closed">
+                			<a  href="/support/services/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Services">Services</a>
+                    			</li>			<li class="imperva-university xs-closed">
+                			<a  href="/support/imperva-university/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Imperva University">Imperva University</a>
+                    			</li>			<li class="community xs-closed">
+                			<a   target="_blank" href="https://community.imperva.com/home" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Community">Community</a>
+                    			</li>			<li class="documentation xs-closed">
+                			<a  href="https://docs.imperva.com/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Documentation">Documentation</a>
+                    			</li>			<li class="eol-policy xs-closed">
+                			<a  href="/support/eol-policy/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="EOL Policy">EOL Policy</a>
+                    			</li>		</ul>	</ul>
+                    	<ul class="column col column">
+                
+                    		<ul class="column show-children-on-xs">
+                			<li class="on-premises-support-portal xs-closed">
+                			<a  href="https://www.imperva.com/login" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="On-Premises Support Portal">On-Premises Support Portal</a>
+                    			</li>			<li class="cloud-security-support-portal xs-closed">
+                			<a  href="https://support.incapsula.com/hc/en-us" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Cloud Security Support Portal">Cloud Security Support Portal</a>
+                    			</li>			<li class="bot-management-support-portal xs-closed">
+                			<a  href="https://help.distilnetworks.com/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Bot Management Support Portal">Bot Management Support Portal</a>
+                    			</li>			<li class="rasp-support-portal xs-closed">
+                			<a  href="https://support.prevoty.com/support/login" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="RASP Support Portal">RASP Support Portal</a>
+                    			</li>		</ul>	</ul></div></li>
+                    <li class="top-nav-items partners"  >
+                        
+            <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+        
+                
+                        <a  href="javascript:void(0)" class="top-nav-item-anchor  hide-on-sm"> 
+                            Partners
+                        </a>
+                    
+                    <div class="drop" style="display: none">
+                    <div class="nav-items-div row">
+                
+                    	<ul class="column col column">
+                
+                    		<ul class="column show-children-on-xs">
+                			<li class="imperva-partner-ecosystem xs-closed">
+                			<a  href="/partners/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Imperva Partner Ecosystem">Imperva Partner Ecosystem</a>
+                    			</li>			<li class="channel-partners xs-closed">
+                			<a  href="/partners/channel-partners/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Channel Partners">Channel Partners</a>
+                    			</li>			<li class="technology-alliances xs-closed">
+                			<a  href="/partners/technology-alliance-program-tap/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Technology Alliances">Technology Alliances</a>
+                    			</li>			<li class="find-a-partner xs-closed">
+                			<a  href="/partners/find-a-partner/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Find a Partner">Find a Partner</a>
+                    			</li>			<li class="partner-portal-login xs-closed">
+                			<a  href="https://partners.imperva.com/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Partner Portal Login">Partner Portal Login</a>
+                    			</li>		</ul>	</ul></div></li>
+                    <li class="top-nav-items customers hide_on_desktop_small" gtm-track event-action="click" event-category="Top menu" event-label="Customers" >
+                        
+                
+                        <a  href="/resources/customers/" class="top-nav-item-anchor  hide-on-sm"> 
+                            Customers
+                        </a>
+                    </li>
+                    <li class="top-nav-items resources"  >
+                        
+            <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+        
+                
+                        <a  href="javascript:void(0)" class="top-nav-item-anchor "> 
+                            Resources
+                        </a>
+                    
+                    <div class="drop" style="display: none">
+                    <div class="nav-items-div row">
+                
+                    	<ul class="column col column">
+                
+                    		<ul class="column show-children-on-xs">
+                			<li class="customer-stories hide_on_mobile hide_on_tablet hide_on_desktop_medium hide_on_desktop_large xs-closed">
+                			<a  href="/resources/customers/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Customer Stories">Customer Stories</a>
+                    			</li>			<li class="imperva-research-labs hide_on_mobile hide_on_tablet hide_on_desktop_large xs-closed">
+                			<a  href="/threat-labs/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Imperva Research Labs">Imperva Research Labs</a>
+                    			</li>			<li class="resource-library xs-closed">
+                			<a  href="/resources/resource-library/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Resource Library">Resource Library</a>
+                    			</li>			<li class="free--tools xs-closed">
+                			<a  href="/resources/free-cyber-security-testing-tools/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Free  Tools">Free  Tools</a>
+                    			</li>			<li class="cyber-threat-index hide_on_mobile hide_on_tablet hide_on_desktop_large xs-closed">
+                			<a  href="/cyber-threat-index/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Cyber Threat Index">Cyber Threat Index</a>
+                    			</li>			<li class="blog xs-closed">
+                			<a  href="/blog" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Blog">Blog</a>
+                    			</li>		</ul>	</ul></div></li>
+                    <li class="top-nav-items research-labs hide_on_desktop_small hide_on_desktop_medium"  >
+                        
+            <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+        
+                
+                        <a  href="javascript:void(0)" class="top-nav-item-anchor  hide-on-sm"> 
+                            Research Labs
+                        </a>
+                    
+                    <div class="drop" style="display: none">
+                    <div class="nav-items-div row">
+                
+                    	<ul class="column col column">
+                
+                    		<ul class="column show-children-on-xs">
+                			<li class="imperva-research-labs hide_on_desktop_small hide_on_desktop_medium xs-closed">
+                			<a  href="/threat-labs/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Imperva Research Labs">Imperva Research Labs</a>
+                    			</li>			<li class="cyber-threat-index hide_on_desktop_small hide_on_desktop_medium xs-closed">
+                			<a  href="/cyber-threat-index/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Cyber Threat Index">Cyber Threat Index</a>
+                    			</li>			<li class="cyber-threat-attack-map xs-closed">
+                			<a  href="/cyber-threat-attack-map/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Cyber Threat Attack Map">Cyber Threat Attack Map</a>
+                    			</li>		</ul>	</ul></div></li>
+                    <li class="top-nav-items about-us"  >
+                        
+            <i class="expand-icon impv-icon d-block d-md-none"><span></span><span></span></i>
+        
+                
+                        <a  href="javascript:void(0)" class="top-nav-item-anchor  hide-on-sm"> 
+                            About Us
+                        </a>
+                    
+                    <div class="drop" style="display: none">
+                    <div class="nav-items-div row">
+                
+                    	<ul class="column col column">
+                
+                    		<ul class="column show-children-on-xs">
+                			<li class="who-we-are xs-closed">
+                			<a  href="/company/about/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Who We Are">Who We Are</a>
+                    			</li>			<li class="press-&-awards xs-closed">
+                			<a  href="/company/news/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Press &#038; Awards">Press &#038; Awards</a>
+                    			</li>			<li class="events xs-closed">
+                			<a  href="/company/events/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Events">Events</a>
+                    			</li>			<li class="locations xs-closed">
+                			<a  href="/company/locations" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Locations">Locations</a>
+                    			</li>			<li class="careers xs-closed">
+                			<a  href="/company/careers/" class="nav-item  " gtm-track event-action="click" event-category="Top menu" event-label="Careers">Careers</a>
+                    			</li>		</ul>	</ul></div></li>
+                    <li class="top-nav-items login hide_on_desktop_small hide_on_desktop_medium hide_on_desktop_large"  >
+  
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+            
+            
+    <script>
+        window.ColorTheme = Object.assign({}, window.ColorTheme, {"global":"#f5f5f5"});    
+    </script>
+<div class="cti-report" data-versions='false' data-month-index='false'>
+    <input type="hidden" id="pageId" value="459">
+    <div id="sticky-navigation" class="nav-collapsed d-none d-md-flex">
+        <div class="inner-navigation">
+            <div class="navigation-button active" data-anchor="cyberthreatindex" data-active-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/overview-selected.svg" data-hover-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/overview-hover.svg" data-inactive-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/overview-unselected.svg" style="background-image: url('https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/overview-selected.svg')">
+                <p>Cyber Threat Index Overview</p>
+                <hr>
+            </div>
+            <div class="navigation-button" data-anchor="ctiinsights" data-active-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/insights-selected-copy.svg" data-hover-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/insights-hover.svg" data-inactive-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/insights-unselected-copy.svg" style="background-image: url('https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/insights-unselected-copy.svg')">
+                <p>Insights & Recommendations.</p>
+                <hr>
+            </div>
+            <div class="navigation-button" data-anchor="appsecurity" data-active-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/application-security-selected.svg" data-hover-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/application-security-hover.svg" data-inactive-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/application-security-unselected.svg" style="background-image: url('https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/application-security-unselected.svg')">
+                <p>Application </br>Security</p>
+                <hr>
+            </div>
+            <div class="navigation-button" data-anchor="datasecurity" data-active-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/database-security-selected.svg" data-hover-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/database-security-hover.svg" data-inactive-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/database-security-unselected.svg" style="background-image: url('https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/database-security-unselected.svg')">
+                <p>Data <br>Security</p>
+                <hr>
+            </div>
+            <div class="navigation-button" data-anchor="ddosattacks" data-active-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/ddos-attack-selected.png" data-hover-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/ddos-attack-hover.png" data-inactive-img="https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/ddos-attack-unselected.png" style="background-image: url('https://www.imperva.com/cyber-threat-index/wp-content/uploads/sites/18/2020/01/ddos-attack-unselected.png')">
+                <p>DDoS<br> Threats</p>
+            </div>
+        </div>
+        <div class="expand-collapse-sidebar"><i class="fa fa-caret-right"></i></div>
+    </div>
+    <section class="bg-black hero-div navigation-anchor" anchor="cyberthreatindex">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="hero-breadcrumbs">
+                        <p class='sub-header'><a href='/' target="_self">Home</a>&nbsp;>&nbsp;<span>Cyber Threat Index</span>&nbsp;</p><style>/**hero-style**/.hero-breadcrumbs a,.hero-breadcrumbs p{color:#ffffff!important;}</style>                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="cti-charts-date">
+                        <div class='impv-dropdown dropdown dropdown-select filter' name='filter' id='choose-year'><button class='dropdown-btn dropdown-select-btn ' type='button' id='dropdownMenuButton-choose-year' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' data-value='2020-12' data-reference="parent">
+                        <span class='name'>December 2020</span>
+                        <i class='impv-icon drop-down-icon'>
+                            <span></span>
+                            <span></span>
+                        </i>
+                    </button><div class='dropdown-menu' aria-labelledby='dropdownMenuButton-choose-year'><a class='dropdown-item' data-value='2020-12' data-source='2020-12' href='#' >December 2020</a><a class='dropdown-item' data-value='2020-11' data-source='2020-11' href='#' >November 2020</a><a class='dropdown-item' data-value='2020-10' data-source='2020-10' href='#' >October 2020</a><a class='dropdown-item' data-value='2020-09' data-source='2020-09' href='#' >September 2020</a><a class='dropdown-item' data-value='2020-08' data-source='2020-08' href='#' >August 2020</a><a class='dropdown-item' data-value='2020-07' data-source='2020-07' href='#' >July 2020</a><a class='dropdown-item' data-value='2020-06' data-source='2020-06' href='#' >June 2020</a><a class='dropdown-item' data-value='2020-05' data-source='2020-05' href='#' >May 2020</a><a class='dropdown-item' data-value='2020-04' data-source='2020-04' href='#' >April 2020</a><a class='dropdown-item' data-value='2020-03' data-source='2020-03' href='#' >March 2020</a><a class='dropdown-item' data-value='2020-02' data-source='2020-02' href='#' >February 2020</a><a class='dropdown-item' data-value='2020-01' data-source='2020-01' href='#' >January 2020</a><a class='dropdown-item' data-value='2019-12' data-source='2019-12' href='#' >December 2019</a><a class='dropdown-item' data-value='2019-11' data-source='2019-11' href='#' >November 2019</a><a class='dropdown-item' data-value='2019-10' data-source='2019-10' href='#' >October 2019</a><a class='dropdown-item' data-value='2019-09' data-source='2019-09' href='#' >September 2019</a><a class='dropdown-item' data-value='2019-08' data-source='2019-08' href='#' >August 2019</a></div></div>                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 ">
+                    <div class="title-text">
+                        <h1 class="cti-title">Cyber Threat Index</h1>
+                        <a class="what-is-cti" href="javascript:openModal('modalid487');">What is the Cyber Threat Index?</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 cti-hp-indicator">
+                    <div class="indicator" data-file-name="monthly_cti_indicator.json" data-theme-color="green" data-text-color="white" data-last-month='false' data-prev-month='false'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cti-strip tabs-div tabs-head">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-md-3 col-sm-4 col-12 threat-level-div">
+                    <span class="view-threat-level">View threat level by:</span>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-4 col-6 tabs active">
+                    <a class="tab-anchor" tab-target="country">
+                        Country
+                    </a>
+                </div>
+                <div class="col-xl-2 col-md-3 col-sm-4 col-6 tabs not-active">
+                    <a class="tab-anchor" tab-target="industry">
+                        Industry
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cti-hp-main-chart">
+        <div class="container">
+            <div class="row tabs-div no-m1420">
+                <div class="col-12 tab-pages" id="country" style="display:block">
+                    <div class="segment-filters-div">
+                        <p class="choose-filter d-none d-sm-block">Country:</p>
+                    </div>
+                    <h2 class="cti-subtitle text-sm-left text-center">Cyber Threat Index Score by Country</h2>
+                    <div class="chart chart-data-holder" data-file-name="global_country_category_line.json" data-chart-data='false' data-chart-type="line"
+                     data-theme-color="rainbow" data-show-legend="true" data-text-color="black"
+                     data-segments-filter="true" data-global-label="Global CTI Score" data-default-segments="Global CTI Score, United States, United Kingdom" data-categories-type="date" data-y-axis-range="500" data-y-axis-title="Daily Cyber Threat Index Score"></div>
+                </div>
+                <div class="col-12 tab-pages" id="industry" style="display:none">
+                    <div class="segment-filters-div">
+                        <p class="choose-filter d-none d-sm-block">Industry:</p>
+                    </div>
+                    <h2 class="cti-subtitle">Cyber Threat Index Score by Industry</h2>
+                    <div class="chart chart-data-holder" data-file-name="global_country_category_line.json" data-chart-data='false' data-chart-type="line"
+                     data-theme-color="rainbow" data-show-legend="true" data-text-color="black"
+                     data-segments-filter="true" data-global-label="Global CTI Score" data-default-segments="Financial Services, Retail" data-categories-type="date" data-y-axis-range="500" data-y-axis-title="Daily Cyber Threat Index Score"></div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

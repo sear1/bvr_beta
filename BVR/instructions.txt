@@ -1,0 +1,19 @@
+conda create -n myflaskbvr flask
+
+python basic.py
+
+
+extras:
+pip install datetime
+pip install PyHive==0.1.3
+
+
+import prestodb
+
+pconn=prestodb.dbapi.connect(
+    host='local',
+    port=8080,
+    catalog='hive',
+    schema='dp_prd',
+    auth=prestodb.auth.BasicAuthentication("principal id", "password"),
+)
